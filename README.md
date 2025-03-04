@@ -23,12 +23,6 @@ A **3D Interactive Portfolio** built with **React + Vite** and **Three.js**, sho
 - **State Management:** React Context API
 - **Deployment:** Vercel / Firebase Hosting
 
-## 📸 Project Visuals
-![3D Portfolio Preview](https://via.placeholder.com/800x400.png?text=Project+Preview)
-
-## 📹 Demo Video
-<video src="./demo.mp4" controls width="600"></video>
-
 ## ⚙️ How to Run Locally
 
 ### Prerequisites
