@@ -19,6 +19,12 @@ import {
     whereismybus,
     linktreeclone,
     zenlist,
+    linkedin,
+    facebook,
+    instagram,
+    github,
+    blogger,
+    leetcode,
 } from "../assets";
 
 export const navLinks = [
@@ -39,6 +45,39 @@ export const navLinks = [
     {
         id: "contact",
         title: "Contact",
+    },
+];
+
+const socialLinksicons = [
+    {
+        icon: facebook,
+        alt: "Facebook",
+        link: "https://facebook.com/theayushgupta08",
+    },
+    {
+        icon: instagram,
+        alt: "Instagram",
+        link: "https://instagram.com/cyberayush08",
+    },
+    {
+        icon: linkedin,
+        alt: "LinkedIn",
+        link: "https://linkedin.com/in/theayushgupta08",
+    },
+    {
+        icon: github,
+        alt: "Github",
+        link: "https://github.com/theayushgupta08",
+    },
+    {
+        icon: leetcode,
+        alt: "Leetcode",
+        link: "https://leetcode.com/u/theayushgupta08/",
+    },
+    {
+        icon: blogger,
+        alt: "Blog",
+        link: "https://innovate-insight.blogspot.com/",
     },
 ];
 
@@ -256,4 +295,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, socialLinksicons };

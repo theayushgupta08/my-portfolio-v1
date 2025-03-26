@@ -22,12 +22,26 @@ import igi from "./company/igi.png";
 import inorbvict from "./company/inorbvict.png";
 import cyberayush from "./company/cyberayush.png";
 
+import facebook from "./facebook.png";
+import instagram from "./instagram.png";
+import leetcode from "./leetcode.png";
+import blogger from "./blogger.png";
+import linkedin from "./linkedin.png";
+
 
 import whereismybus from "./whereismybus.png";
 import linktreeclone from "./linktreeclone.png";
 import zenlist from "./zenlist.png";
 
+import ayush from "./ayush.png";
+
 export {
+  ayush,
+  instagram,
+  facebook,
+  linkedin,
+  blogger,
+  leetcode,
   logo,
   backend,
   creator,

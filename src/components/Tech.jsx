@@ -7,6 +7,7 @@ import { styles } from "../styles";
 
 
 
+
 const Tech = () => {
   return (
     <div className="flex flex-col">
