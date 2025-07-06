@@ -20,7 +20,7 @@ const Tech = () => {
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <BallCanvas icon={technology.icon} />
-            <p className="flex items-center justify-center">{technology.name}</p>
+            <p className="flex text-center items-center justify-center">{technology.name}</p>
           </div>
         ))}
       </div>
@@ -28,4 +28,4 @@ const Tech = () => {
   )
 }
 
-export default SectionWrapper(Tech, "")
+export default SectionWrapper(Tech, "tech");

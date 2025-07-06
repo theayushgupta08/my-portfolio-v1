@@ -25,7 +25,43 @@ import {
     github,
     blogger,
     leetcode,
+    machinelearning,
+    deeplearning,
 } from "../assets";
+
+export const certificates = [
+  {
+    title: "Introduction to Generative AI",
+    issuer: "Google",
+    date: "June 2024",
+    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9642100",
+  },
+  {
+    title: "Applying AI Principles with Google Cloud",
+    issuer: "Google",
+    date: "July 2024",
+    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9756695",
+  },
+  {
+    title: "Prompt Design in Vertex AI",
+    issuer: "Google",
+    date: "July 2024",
+    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9755771",
+  },
+  {
+    title: "Introduction to Large Language Models",
+    issuer: "Google",
+    date: "June 2024",
+    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9642869",
+  },
+  {
+    title: "Complete Data Science Training: Math, Statistics, Python, Advanced Statistics in Python, Machine and Deep Learning",
+    issuer: "Udemy",
+    date: "July 2024",
+    link: "#",
+  },
+  
+];
 
 export const navLinks = [
     {
@@ -41,6 +77,14 @@ export const navLinks = [
     {
         id: "work",
         title: "Work",
+    },
+    {
+        id: "certificates",
+        title: "Certificates",
+    },
+    {
+        id: "projects",
+        title: "Projects",
     },
     {
         id: "contact",
@@ -83,11 +127,11 @@ const socialLinksicons = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Data Scientist & ML Engineer",
         icon: web,
     },
     {
-        title: "Application Developer",
+        title: "Frontend Developer",
         icon: mobile,
     },
     {
@@ -114,10 +158,6 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
@@ -134,8 +174,12 @@ const technologies = [
         icon: mongodb,
     },
     {
-        name: "C++",
-        icon: cpp,
+        name: "Machine Learning",
+        icon: machinelearning,
+    },
+    {
+        name: "Deep Learning",
+        icon: deeplearning,
     },
     {
         name: "SQL",

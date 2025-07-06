@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
 import { socialLinksicons } from '../constants';
 import { fadeIn } from '../utils/motion';
-import { ayush } from '../assets';
+import Chatbot from './Chatbot';
 
 const Hero = () => {
   return (
@@ -17,7 +16,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff]'>Ayush</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a aspiring Software Development <br className='sm:block hidden' />Engineer (SDE) and a Tech Content Creator!</p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I'm a Data Scientist, Software Development <br /> Engineer (SDE) and a Tech Content Creator!</p>
 
           <motion.div variants={fadeIn("up", "spring", 0.5, 0.75)}>
             <div className='flex flex-row mt-5 gap-5 pt-1 justify-around bg-yellow-400 p-5 rounded-xl'>
@@ -63,6 +62,7 @@ const Hero = () => {
           </div>
         </a>
       </div> */}
+   
     </section>
   )
 }
