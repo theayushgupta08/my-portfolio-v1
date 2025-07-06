@@ -18,6 +18,7 @@ import {
     inorbvict,
     whereismybus,
     linktreeclone,
+    sqanosystems,
     zenlist,
     linkedin,
     facebook,
@@ -27,40 +28,80 @@ import {
     leetcode,
     machinelearning,
     deeplearning,
+    aiprincipales,
+    introgenai,
+    llms,
+    vertexai,
+    digitalmarketing,
+    foragejobsimaccenture,
+    googleanalytics,
+    interview,
 } from "../assets";
 
 export const certificates = [
-  {
-    title: "Introduction to Generative AI",
-    issuer: "Google",
-    date: "June 2024",
-    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9642100",
-  },
-  {
-    title: "Applying AI Principles with Google Cloud",
-    issuer: "Google",
-    date: "July 2024",
-    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9756695",
-  },
-  {
-    title: "Prompt Design in Vertex AI",
-    issuer: "Google",
-    date: "July 2024",
-    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9755771",
-  },
-  {
-    title: "Introduction to Large Language Models",
-    issuer: "Google",
-    date: "June 2024",
-    link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9642869",
-  },
-  {
-    title: "Complete Data Science Training: Math, Statistics, Python, Advanced Statistics in Python, Machine and Deep Learning",
-    issuer: "Udemy",
-    date: "July 2024",
-    link: "#",
-  },
-  
+    {
+        title: "Introduction to Generative AI",
+        issuer: "Google",
+        date: "June 2024",
+        link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9642100",
+        image: introgenai,
+    },
+    {
+        title: "Data Analytics and Visualization Job Simulation",
+        issuer: "Accenture",
+        date: "Jan 2024",
+        link: foragejobsimaccenture,
+        image: foragejobsimaccenture,
+    },
+    {
+        title: "Google Analytics for Beginners",
+        issuer: "Google",
+        date: "May 2024",
+        link: googleanalytics,
+        image: googleanalytics,
+    },
+    {
+        title: "Interview Preparation",
+        issuer: "TCS iOn",
+        date: "June 2024",
+        link: interview,
+        image: interview,
+    },
+    {
+        title: "Applying AI Principles with Google Cloud",
+        issuer: "Google",
+        date: "July 2024",
+        link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9756695",
+        image: aiprincipales,
+    },
+    {
+        title: "Fundamentals of Digital Marketing",
+        issuer: "Google",
+        date: "June 2024",
+        link: digitalmarketing,
+        image: digitalmarketing,
+    },
+    {
+        title: "Prompt Design in Vertex AI",
+        issuer: "Google",
+        date: "July 2024",
+        link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9755771",
+        image: vertexai,
+    },
+    {
+        title: "Introduction to Large Language Models",
+        issuer: "Google",
+        date: "June 2024",
+        link: "https://www.cloudskillsboost.google/public_profiles/4c523e62-d41e-4052-adc3-11b63fdb3105/badges/9642869",
+        image: llms,
+    },
+    //   {
+    //     title: "Complete Data Science Training: Math, Statistics, Python, Advanced Statistics in Python, Machine and Deep Learning",
+    //     issuer: "Udemy",
+    //     date: "July 2024",
+    //     link: "#",
+    //   },
+
 ];
 
 export const navLinks = [
@@ -189,10 +230,25 @@ const technologies = [
 
 const experiences = [
     {
+        title: "Software Developer",
+        company_name: "Sqano Systems Pvt. Ltd.",
+        icon: sqanosystems,
+        iconBg: "#E6DEDD",
+        date: "June 2025 - Present",
+        link: "https://www.sqano.com/",
+        points: [
+            "Building iQan.ai.",
+            "Working on a SaaS product using MERN stack (MongoDB, Express.js, React, Node.js) integrated with Supabase for scalable backend services.",
+            "Ensured code quality with unit testing, Git workflows, and CI/CD pipelines.",
+            "Collaborated in Agile sprints, contributing to sprint planning, code reviews, and product design discussions.",
+        ],
+    },
+    {
         title: "Content Creator",
         company_name: "CyberAyush",
         icon: cyberayush,
         iconBg: "#E6DEDD",
+        link: "https://www.instagram.com/cyberayush08/",
         date: "March 2021 - Present",
         points: [
             "Develop and implement content strategies to align with brand objectives and target audience preferences.",
@@ -208,6 +264,7 @@ const experiences = [
         icon: inorbvict,
         iconBg: "#383E56",
         date: "August 2024 - September 2024",
+        link: "https://www.inorbvict.com/",
         points: [
             "Designed 7 scalable training modules for Learning Management System (LMS) using AI techniques and domain knowledge.",
             "Implemented web scrapping to gather product details from the Online Shopping Websites IndiaMart. Analyzed, Cleaned and Visualized collected data for efficient presentation to the stakeholders using Excel.",
@@ -221,6 +278,7 @@ const experiences = [
         icon: igi,
         iconBg: "#E6DEDD",
         date: "January 2024 - March 2024",
+        link: "https://indiraedu.com/",
         points: [
             "Collaborated with cross-functional teams while leading the data collection, cleaning, and analysis process, resulting in a 60% increase in the accuracy and completeness of alumni records.",
             "Coordinated and organized 5 events including training sessions, guest lectures, and award shows by actively engaging with alumni, enhancing networking and learning opportunities for college students.",
@@ -233,6 +291,7 @@ const experiences = [
         icon: igi,
         iconBg: "#383E56",
         date: "December 2023 - January 2021",
+        link: "https://indiraicem.ac.in/",
         points: [
             "Build a Result Conversion tool that converts PDFs into CSV, improving search efficiency by 50% and data analysis by 40% and reducing manual data processing time by 60%.",
             "Achieved 99% accuracy in data conversion through the Result Conversion tool, ensuring reliable and precise data transformation.",

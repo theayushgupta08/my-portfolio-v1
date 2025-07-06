@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import igi from "./company/igi.png";
 import inorbvict from "./company/inorbvict.png";
 import cyberayush from "./company/cyberayush.png";
+import sqanosystems from "./company/sqanosystems.png";
 
 import facebook from "./facebook.png";
 import instagram from "./instagram.png";
@@ -37,6 +38,15 @@ import zenlist from "./zenlist.png";
 
 import ayush from "./ayush.png";
 
+import aiprincipales from "./certifications/aiprincipales.png";
+import introgenai from "./certifications/introtogenai.png";
+import llms from "./certifications/llms.png";
+import vertexai from "./certifications/vertexai.png";
+import digitalmarketing from "./certifications/digitalmarketing.png";
+import foragejobsimaccenture from "./certifications/foragejobsimaccenture.png";
+import googleanalytics from "./certifications/googleanalytics.png";
+import interview from "./certifications/interview.png";
+
 export {
   ayush,
   instagram,
@@ -45,6 +55,7 @@ export {
   blogger,
   leetcode,
   logo,
+  sqanosystems,
   backend,
   creator,
   mobile,
@@ -70,4 +81,12 @@ export {
   python,
   machinelearning,
   deeplearning,
+  aiprincipales,
+  introgenai,
+  llms,
+  vertexai,
+  digitalmarketing,
+  foragejobsimaccenture,
+  googleanalytics,
+  interview,
 };

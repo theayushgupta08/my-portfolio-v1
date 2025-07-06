@@ -38,6 +38,15 @@ Build a Result Conversion tool that converts PDFs into CSV, improving search eff
 Achieved 99% accuracy in data conversion through the Result Conversion tool, ensuring reliable and precise data transformation.
 Recognized as a runner-up in a competitive project evaluation, showcasing innovative solutions to analyze results efficiently.
 
+My Work Experience
+
+Software Developer at Sqano Systems Pvt. Ltd. (June 2025 - Present)
+
+Building iQan.ai.
+Working on a SaaS product using MERN stack (MongoDB, Express.js, React, Node.js) integrated with Supabase for scalable backend services.
+Ensured code quality with unit testing, Git workflows, and CI/CD pipelines.
+Collaborated in Agile sprints, contributing to sprint planning, code reviews, and product design discussions.
+
 My Education:
 Bachelor of Engineering in Computer Science Engineering, Indira College of Engineering and Management, Pune (2020 - 2025).
 
@@ -105,4 +114,5 @@ I believe in clean code, meaningful insights, and continuous learning. I’ve al
 Currently, I’m exploring freelancing to help businesses turn raw data into powerful decisions. If you're looking for someone who can build models, visualize insights, and communicate data clearly — I’m your guy.
 
 You can check out my work on GitHub, or hire me directly via Fiverr. Let’s solve real problems with data!
+
 `;
