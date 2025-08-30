@@ -2,54 +2,47 @@ import React, { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
-import { certificates } from '../constants';
+import { awards } from '../constants';
 import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
-const CertificateCard = ({ index, cert }) => {
+const AwardCard = ({ index, award }) => {
   return (
     <motion.div
       variants={fadeIn('up', 'spring', index * 0.1, 0.75)}
-      className='w-[320px] h-[440px] flex flex-col bg-tertiary p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:shadow-[#915eff]/20 hover:-translate-y-1 overflow-hidden'
+      className='w-[320px] h-[460px] flex flex-col bg-tertiary p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:shadow-[#915eff]/20 hover:-translate-y-1 overflow-hidden'
     >
       <div className='relative'>
-        {/* Certificate Image (optional) - Uncomment and add your image */}
-        {cert.image && (
+        {award.image && (
           <div className='mb-4 overflow-hidden rounded-lg h-48 flex-shrink-0'>
             <img 
-              src={cert.image} 
+              src={award.image} 
               className='w-full h-full object-cover rounded-lg hover:scale-105 transition-transform duration-300'
-              alt={cert.title}
+              alt={award.title}
             />
           </div>
         )}
         
         <div className='flex justify-between items-start mb-3'>
           <div className='flex-1 min-w-0'>
-            <h3 className='text-white font-bold text-[18px] truncate' title={cert.title}>{cert.title}</h3>
-            <p className='text-secondary text-[14px] truncate' title={cert.issuer}>{cert.issuer}</p>
+            <h3 className='text-white font-bold text-[18px] truncate' title={award.title}>{award.title}</h3>
+            <p className='text-secondary text-[14px] truncate' title={award.issuer}>{award.issuer}</p>
           </div>
-          <p className='text-secondary text-[14px] whitespace-nowrap ml-2 w-24 h-10 rounded-2xl border border-white/30 bg-white/10 backdrop-blur-md shadow-md flex items-center justify-center text-white font-semibold hover:bg-white/20 transition-all duration-300'>{cert.date}</p>
+          <p className='text-secondary text-[14px] whitespace-nowrap ml-2 w-24 h-10 rounded-2xl border border-white/30 bg-white/10 backdrop-blur-md shadow-md flex items-center justify-center text-white font-semibold hover:bg-white/20 transition-all duration-300'>{award.date}</p>
         </div>
-        
-        {cert.description && (
-          <p className='text-gray-400 text-sm mb-4 line-clamp-2'>
-            {cert.description}
-          </p>
-        )}
         
         <div className='mt-4'>
           <p className='text-gray-400 text-sm line-clamp-3 mb-4 overflow-hidden overflow-ellipsis'>
-            {cert.description || 'Click below to view the certificate details.'}
+            {award.description || 'Click below to view the award details.'}
           </p>
           <a
-            href={cert.link}
+            href={award.link}
             target='_blank'
             rel='noopener noreferrer'
             className='group relative inline-flex items-center justify-center px-6 py-3 mt-4 overflow-hidden font-medium text-white transition-all duration-300 bg-gradient-to-r from-[#915eff] to-[#7b2ff7] rounded-lg hover:shadow-lg hover:shadow-[#915eff]/40 hover:scale-[1.02] active:scale-95 focus:outline-none focus:ring-2 focus:ring-[#915eff] focus:ring-offset-2 focus:ring-offset-[#1a1440]'
           >
             <span className='relative z-10 flex items-center gap-2'>
-              View Certificate
+              View Award
               <svg
                 className='w-4 h-4 transition-transform group-hover:translate-x-1 group-hover:scale-110'
                 fill='none'
@@ -73,7 +66,7 @@ const CertificateCard = ({ index, cert }) => {
   );
 };
 
-const Certificates = () => {
+const Awards = () => {
   const containerRef = useRef(null);
   const [showNav, setShowNav] = useState(false);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -135,8 +128,8 @@ const Certificates = () => {
       className='w-full relative'
     >
       <motion.div variants={textVariant()} className='mb-12'>
-        <p className={styles.sectionSubText}>My Technical Expertise</p>
-        <h2 className={styles.sectionHeadText}>Certificates</h2>
+        <p className={styles.sectionSubText}>My Achievements</p>
+        <h2 className={styles.sectionHeadText}>Honors & Awards</h2>
       </motion.div>
       
       <div className='relative w-full'>
@@ -158,15 +151,15 @@ const Certificates = () => {
           }}
         >
           <div className='flex gap-6'>
-            {certificates.map((cert, index) => (
+            {awards.map((award, index) => (
               <div 
-                key={`cert-${index}`} 
+                key={`award-${index}`} 
                 ref={index === 0 ? cardRef : null}
                 className='flex-shrink-0 snap-start'
               >
-                <CertificateCard 
+                <AwardCard 
                   index={index}
-                  cert={cert}
+                  award={award}
                 />
               </div>
             ))}
@@ -186,4 +179,4 @@ const Certificates = () => {
   );
 };
 
-export default SectionWrapper(Certificates, "certificates");
+export default SectionWrapper(Awards, "awards");

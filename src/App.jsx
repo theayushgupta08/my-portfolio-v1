@@ -1,8 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { About, Contact, Experience, Education, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
 import Certificates from './components/Certificates';
 import Chatbot from './components/Chatbot';
-
+import Awards from './components/Awards';
 
 const App = () => {
 
@@ -15,14 +15,19 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Education />
         <Experience />
         <Tech />
         <Works />
         <Certificates />
+        <Awards />
         {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
+        </div>
+        <div className="text-center text-sm text-white mb-2">
+          Made with ❤️ by <a href="https://github.com/theayushgupta08" target="_blank" rel="noopener noreferrer" className='text-purple-500'>Ayush Gupta</a>
         </div>
       </div>
     </BrowserRouter>

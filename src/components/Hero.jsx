@@ -9,7 +9,7 @@ const Hero = () => {
   return (
 
     <section className='hero-section relative w-full min-h-screen flex items-center justify-center px-4 sm:px-8 pt-24 pb-10 md:py-20 overflow-hidden'>
-      <div className='hero-content container mx-auto flex flex-col md:flex-row items-center justify-between gap-12 relative z-10'>
+      <div className='lg:ml-20 mt-10 hero-content container mx-auto flex flex-col md:flex-row items-center justify-between gap-12 relative z-10'>
         {/* Left side - Content */}
         <motion.div 
           className='text-center md:text-left order-2 md:order-1 flex-1'
@@ -22,7 +22,7 @@ const Hero = () => {
               Hi, I'm <span className='text-[#915eff]'>Ayush</span>
             </h1>
             <p className='text-lg sm:text-xl text-gray-300 max-w-2xl'>
-              I'm a Data Scientist, Software Development Engineer (SDE) and a Tech Content Creator!
+              I'm a Software Development Engineer (SDE), Data Scientist and a Tech Content Creator!
             </p>
           </div>
           

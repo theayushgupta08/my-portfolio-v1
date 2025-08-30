@@ -47,6 +47,12 @@ import foragejobsimaccenture from "./certifications/foragejobsimaccenture.png";
 import googleanalytics from "./certifications/googleanalytics.png";
 import interview from "./certifications/interview.png";
 
+import msme2025 from "./awards/msme2025.jpeg";
+import iglls2024 from "./awards/iglls2024.jpeg";
+import techfest2024 from "./awards/techfest2024.jpeg";
+
+import surmount from "./surmount.png";
+
 export {
   ayush,
   instagram,
@@ -89,4 +95,8 @@ export {
   foragejobsimaccenture,
   googleanalytics,
   interview,
+  msme2025,
+  iglls2024,
+  techfest2024,
+  surmount,
 };

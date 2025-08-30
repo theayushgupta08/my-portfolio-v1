@@ -36,7 +36,38 @@ import {
     foragejobsimaccenture,
     googleanalytics,
     interview,
+    msme2025,
+    iglls2024,
+    techfest2024,
+    surmount
 } from "../assets";
+
+export const awards = [
+    {
+        title: "Best Paper Award",
+        issuer: "MSME 2025 International Conference",
+        date: "2025",
+        image: msme2025,
+        description: "My paper on 'A Comparative Study of Machine Learning Algorithms for Predicting Stock Market Trends' was awarded the Best Paper Award at the MSME 2025 International Conference. This recognition validates my research and the innovative approach I took to analyze market trends using machine learning techniques.",
+        link: "https://www.linkedin.com/in/theayushgupta08/details/honors/",
+    },
+    {
+        title: "Project Competition Winner",
+        issuer: "TechFest 2024",
+        date: "2024",
+        image: techfest2024,
+        description: "My project on 'RPA Driven Result Conversion Tool' won the Project Competition at the TechFest 2024. This recognition validates my ability to apply my engineering skills and the innovative approach I took to convert the result into CSV format.",
+        link: "https://www.linkedin.com/in/theayushgupta08/details/honors/",
+    },
+    {
+        title: "Event Coordinator",
+        issuer: "Indira Global Leadership Lecture Series 2024",
+        date: "2024",
+        image: iglls2024,
+        description: "As a volunteer, I had the honour of coordinating the prestigious Indira Global Leadership Lecture Series 2024 at the Indira Group of Institutes, Pune. It was a fulfilling experience to contribute to fostering connections among alumni and students.",
+        link: "https://www.linkedin.com/in/theayushgupta08/details/volunteering-experiences/",
+    },
+];
 
 export const certificates = [
     {
@@ -120,12 +151,16 @@ export const navLinks = [
         title: "Work",
     },
     {
+        id: "projects",
+        title: "Projects",
+    },
+    {
         id: "certificates",
         title: "Certificates",
     },
     {
-        id: "projects",
-        title: "Projects",
+        id: "awards",
+        title: "Awards",
     },
     {
         id: "contact",
@@ -398,4 +433,52 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, socialLinksicons };
+const education = [
+    {
+        title: "Bachelor of Engineering in Computer Science",
+        institution: "Indira College of Engineering and Management, Pune",
+        icon: igi,
+        iconBg: "#E6DEDD",
+        date: "2021 - 2025",
+        link: "https://indiraicem.ac.in/",
+        points: [
+            "CGPA: 8.5/10",
+            "Specialized in Data Science and Machine Learning",
+            "Completed core courses in Algorithms, Data Structures, Database Management, and Software Engineering",
+            "Active member of Technical Clubs and participated in various hackathons and coding competitions",
+            "Completed capstone project on 'Real-Time Bus Tracking System' using MERN Stack",
+        ],
+    },
+    {
+        title: "Higher Secondary Education (12th)",
+        institution: "Surmount International School, Gorakhpur",
+        icon: surmount,
+        iconBg: "#383E56",
+        date: "2019 - 2020",
+        link: "https://www.surmountschools.in/",
+        points: [
+            "Percentage: 77%",
+            "Science Stream with Computer Science",
+            "Developed strong foundation in Mathematics, Physics, and Computer Science",
+            "Participated in school-level science exhibitions and technical competitions",
+            "Member of the school's Computer Club",
+        ],
+    },
+    {
+        title: "Secondary Education (10th)",
+        institution: "Surmount International School, Gorakhpur",
+        icon: surmount,
+        iconBg: "#E6DEDD",
+        date: "2017 - 2018",
+        link: "https://www.surmountschools.in/",
+        points: [
+            "Percentage: 85%",
+            "Excellent academic performance with distinction",
+            "Active participation in extracurricular activities",
+            "Developed leadership skills through various school events",
+            "Strong foundation in core subjects",
+        ],
+    },
+];
+
+export { services, technologies, experiences, testimonials, projects, socialLinksicons, education };
